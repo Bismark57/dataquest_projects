@@ -1,24 +1,36 @@
-# Dataquest Guided Projects
+# Data Science Guided Projects
 
-Hands-on data science projects completed as part of the Dataquest curriculum, covering data cleaning, SQL analysis, and visualization in Python.
+Fourteen hands-on data science projects completed through [Dataquest](https://www.dataquest.io) — covering SQL analysis, data cleaning and wrangling, and data visualization in Python.
 
 ## Projects
 
-| Project | Skills |
-|---|---|
-| Analyzing CIA Factbook Data Using SQLite and Python | SQL, SQLite, Python |
-| Analyzing NYC High School Data | pandas, data cleaning |
-| Answering Business Questions using SQL | SQL |
-| Exploring U.S. Births | Data visualization |
-| Exploring eBay Car Sales Data | pandas, exploratory analysis |
-| Exploring Gun Deaths in the US | Data analysis, visualization |
-| Finding the Best Markets to Advertise In | pandas, data analysis |
-| Investigating Fandango Movie Ratings | Statistics, visualization |
-| Star Wars Survey | Data cleaning, analysis |
-| Transforming Data with Python | pandas, data wrangling |
-| Using Jupyter Notebook | Jupyter, Python |
-| Visualizing Earnings Based on College Majors | matplotlib, visualization |
-| Visualizing the Gender Gap in College Degrees | matplotlib, visualization |
-| Working with Data Downloads | APIs, data collection |
+| Project | Code | What it covers |
+|---|---|---|
+| Analyzing CIA Factbook Data | [cia-factbook/](cia-factbook/) | SQL queries on a SQLite database of country facts |
+| Analyzing NYC High School Data | [nyc-high-schools/](nyc-high-schools/) | Combining and analyzing multiple NYC school datasets |
+| Answering Business Questions with SQL | [chinook-sql/](chinook-sql/) | SQL analysis of the Chinook music store database |
+| Exploring U.S. Births | [us-births/](us-births/) | Analyzing CDC and SSA birth records with Python |
+| Exploring eBay Car Sales Data | [ebay-car-sales/](ebay-car-sales/) | Cleaning and analyzing used-car listings |
+| Exploring Gun Deaths in the US | [gun-deaths-us/](gun-deaths-us/) | Analysis of CDC gun death records |
+| Finding the Best Markets to Advertise In | [best-markets-advertise/](best-markets-advertise/) | Survey data analysis for ad targeting |
+| Investigating Fandango Movie Ratings | [fandango-ratings/](fandango-ratings/) | Checking for bias in Fandango movie scores |
+| Star Wars Survey Analysis | [star-wars-survey/](star-wars-survey/) | Cleaning and analyzing fan survey data |
+| Transforming Data with Python | [transforming-data-python/](transforming-data-python/) | Hacker News data parsing scripts |
+| Using Jupyter Notebook | [jupyter-notebook-basics/](jupyter-notebook-basics/) | Introduction to the Jupyter workflow |
+| Visualizing Earnings Based on College Majors | [college-majors-earnings/](college-majors-earnings/) | Matplotlib visualizations of graduate earnings |
+| Visualizing the Gender Gap in College Degrees | [gender-gap-degrees/](gender-gap-degrees/) | Tracking women's share of degrees over time |
+| Working with Data Downloads | [data-downloads/](data-downloads/) | Downloading and exploring large education datasets |
 
-`Basics.py` contains Python fundamentals exercises. Each guided project is stored as a `.tar` archive of the original Jupyter notebook work.
+*The original `.tar` archives are kept in this repo as well — they contain the datasets each project works with.*
+
+## Skills demonstrated
+
+- **SQL** — joins, aggregations, subqueries (SQLite, Chinook database)
+- **Python** — pandas, data cleaning, exploratory analysis
+- **Visualization** — matplotlib charts and comparisons
+- **Jupyter** — notebook-based analysis workflow
+- **Working with real data** — CSVs, survey data, government datasets
+
+## License
+
+MIT — see [LICENSE](LICENSE).
