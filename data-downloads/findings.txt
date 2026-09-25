@@ -1,0 +1,7 @@
+summary of observations
+
+TOT_ENR_F = NO = 252915
+TOT_ENR_F = YES = 71
+
+TOT_ENR_M = NO = 266702
+TOT_ENR_M = YES = 427
